@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C71037981C2A420500070391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C71037971C2A420500070391 /* main.m */; };
+		C710379B1C2A420500070391 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C710379A1C2A420500070391 /* AppDelegate.m */; };
+		C71037A31C2A420500070391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71037A21C2A420500070391 /* Assets.xcassets */; };
+		C71037B11C2A420500070391 /* GYQRCodeReaderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71037B01C2A420500070391 /* GYQRCodeReaderDemoTests.m */; };
+		C71037BC1C2A420500070391 /* GYQRCodeReaderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71037BB1C2A420500070391 /* GYQRCodeReaderDemoUITests.m */; };
+		C71037CC1C2A431A00070391 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71037CA1C2A431A00070391 /* ViewController.m */; };
+		C71037CD1C2A431A00070391 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C71037CB1C2A431A00070391 /* ViewController.xib */; };
+		C71037D61C2A434E00070391 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C71037D31C2A434E00070391 /* UIColor+Hex.m */; };
+		C71037E31C2A440600070391 /* SYHoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C71037DF1C2A440600070391 /* SYHoleView.m */; };
+		C71037E41C2A440600070391 /* GYQRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71037E11C2A440600070391 /* GYQRCodeReaderViewController.m */; };
+		C71037E51C2A440600070391 /* SYQRCodeScanningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C71037E21C2A440600070391 /* SYQRCodeScanningViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C71037AD1C2A420500070391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C710378B1C2A420500070391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71037921C2A420500070391;
+			remoteInfo = GYQRCodeReaderDemo;
+		};
+		C71037B81C2A420500070391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C710378B1C2A420500070391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71037921C2A420500070391;
+			remoteInfo = GYQRCodeReaderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C71037931C2A420500070391 /* GYQRCodeReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYQRCodeReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71037971C2A420500070391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C71037991C2A420500070391 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C710379A1C2A420500070391 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C71037A21C2A420500070391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C71037A71C2A420500070391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71037AC1C2A420500070391 /* GYQRCodeReaderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYQRCodeReaderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71037B01C2A420500070391 /* GYQRCodeReaderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYQRCodeReaderDemoTests.m; sourceTree = "<group>"; };
+		C71037B21C2A420500070391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71037B71C2A420500070391 /* GYQRCodeReaderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYQRCodeReaderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71037BB1C2A420500070391 /* GYQRCodeReaderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYQRCodeReaderDemoUITests.m; sourceTree = "<group>"; };
+		C71037BD1C2A420500070391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71037C91C2A431A00070391 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C71037CA1C2A431A00070391 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C71037CB1C2A431A00070391 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C71037D21C2A434E00070391 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		C71037D31C2A434E00070391 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		C71037DE1C2A440600070391 /* SYHoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHoleView.h; sourceTree = "<group>"; };
+		C71037DF1C2A440600070391 /* SYHoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHoleView.m; sourceTree = "<group>"; };
+		C71037E01C2A440600070391 /* GYQRCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYQRCodeReaderViewController.h; sourceTree = "<group>"; };
+		C71037E11C2A440600070391 /* GYQRCodeReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYQRCodeReaderViewController.m; sourceTree = "<group>"; };
+		C71037E21C2A440600070391 /* SYQRCodeScanningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYQRCodeScanningViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C71037901C2A420500070391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71037A91C2A420500070391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71037B41C2A420500070391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C710378A1C2A420500070391 = {
+			isa = PBXGroup;
+			children = (
+				C71037951C2A420500070391 /* GYQRCodeReaderDemo */,
+				C71037AF1C2A420500070391 /* GYQRCodeReaderDemoTests */,
+				C71037BA1C2A420500070391 /* GYQRCodeReaderDemoUITests */,
+				C71037941C2A420500070391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C71037941C2A420500070391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C71037931C2A420500070391 /* GYQRCodeReaderDemo.app */,
+				C71037AC1C2A420500070391 /* GYQRCodeReaderDemoTests.xctest */,
+				C71037B71C2A420500070391 /* GYQRCodeReaderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C71037951C2A420500070391 /* GYQRCodeReaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C71037991C2A420500070391 /* AppDelegate.h */,
+				C710379A1C2A420500070391 /* AppDelegate.m */,
+				C71037C91C2A431A00070391 /* ViewController.h */,
+				C71037CA1C2A431A00070391 /* ViewController.m */,
+				C71037CB1C2A431A00070391 /* ViewController.xib */,
+				C71037A21C2A420500070391 /* Assets.xcassets */,
+				C71037A71C2A420500070391 /* Info.plist */,
+				C71037D21C2A434E00070391 /* UIColor+Hex.h */,
+				C71037D31C2A434E00070391 /* UIColor+Hex.m */,
+				C71037DD1C2A440600070391 /* GYQRCodeReaderViewController */,
+				C71037961C2A420500070391 /* Supporting Files */,
+			);
+			path = GYQRCodeReaderDemo;
+			sourceTree = "<group>";
+		};
+		C71037961C2A420500070391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71037971C2A420500070391 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C71037AF1C2A420500070391 /* GYQRCodeReaderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C71037B01C2A420500070391 /* GYQRCodeReaderDemoTests.m */,
+				C71037B21C2A420500070391 /* Info.plist */,
+			);
+			path = GYQRCodeReaderDemoTests;
+			sourceTree = "<group>";
+		};
+		C71037BA1C2A420500070391 /* GYQRCodeReaderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C71037BB1C2A420500070391 /* GYQRCodeReaderDemoUITests.m */,
+				C71037BD1C2A420500070391 /* Info.plist */,
+			);
+			path = GYQRCodeReaderDemoUITests;
+			sourceTree = "<group>";
+		};
+		C71037DD1C2A440600070391 /* GYQRCodeReaderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C71037DE1C2A440600070391 /* SYHoleView.h */,
+				C71037DF1C2A440600070391 /* SYHoleView.m */,
+				C71037E01C2A440600070391 /* GYQRCodeReaderViewController.h */,
+				C71037E11C2A440600070391 /* GYQRCodeReaderViewController.m */,
+				C71037E21C2A440600070391 /* SYQRCodeScanningViewController.xib */,
+			);
+			path = GYQRCodeReaderViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C71037921C2A420500070391 /* GYQRCodeReaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71037C01C2A420500070391 /* Build configuration list for PBXNativeTarget "GYQRCodeReaderDemo" */;
+			buildPhases = (
+				C710378F1C2A420500070391 /* Sources */,
+				C71037901C2A420500070391 /* Frameworks */,
+				C71037911C2A420500070391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYQRCodeReaderDemo;
+			productName = GYQRCodeReaderDemo;
+			productReference = C71037931C2A420500070391 /* GYQRCodeReaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C71037AB1C2A420500070391 /* GYQRCodeReaderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71037C31C2A420500070391 /* Build configuration list for PBXNativeTarget "GYQRCodeReaderDemoTests" */;
+			buildPhases = (
+				C71037A81C2A420500070391 /* Sources */,
+				C71037A91C2A420500070391 /* Frameworks */,
+				C71037AA1C2A420500070391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C71037AE1C2A420500070391 /* PBXTargetDependency */,
+			);
+			name = GYQRCodeReaderDemoTests;
+			productName = GYQRCodeReaderDemoTests;
+			productReference = C71037AC1C2A420500070391 /* GYQRCodeReaderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C71037B61C2A420500070391 /* GYQRCodeReaderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71037C61C2A420500070391 /* Build configuration list for PBXNativeTarget "GYQRCodeReaderDemoUITests" */;
+			buildPhases = (
+				C71037B31C2A420500070391 /* Sources */,
+				C71037B41C2A420500070391 /* Frameworks */,
+				C71037B51C2A420500070391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C71037B91C2A420500070391 /* PBXTargetDependency */,
+			);
+			name = GYQRCodeReaderDemoUITests;
+			productName = GYQRCodeReaderDemoUITests;
+			productReference = C71037B71C2A420500070391 /* GYQRCodeReaderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C710378B1C2A420500070391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Syousoft;
+				TargetAttributes = {
+					C71037921C2A420500070391 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C71037AB1C2A420500070391 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C71037921C2A420500070391;
+					};
+					C71037B61C2A420500070391 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C71037921C2A420500070391;
+					};
+				};
+			};
+			buildConfigurationList = C710378E1C2A420500070391 /* Build configuration list for PBXProject "GYQRCodeReaderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C710378A1C2A420500070391;
+			productRefGroup = C71037941C2A420500070391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C71037921C2A420500070391 /* GYQRCodeReaderDemo */,
+				C71037AB1C2A420500070391 /* GYQRCodeReaderDemoTests */,
+				C71037B61C2A420500070391 /* GYQRCodeReaderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C71037911C2A420500070391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71037CD1C2A431A00070391 /* ViewController.xib in Resources */,
+				C71037A31C2A420500070391 /* Assets.xcassets in Resources */,
+				C71037E51C2A440600070391 /* SYQRCodeScanningViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71037AA1C2A420500070391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71037B51C2A420500070391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C710378F1C2A420500070391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71037E41C2A440600070391 /* GYQRCodeReaderViewController.m in Sources */,
+				C71037CC1C2A431A00070391 /* ViewController.m in Sources */,
+				C71037D61C2A434E00070391 /* UIColor+Hex.m in Sources */,
+				C710379B1C2A420500070391 /* AppDelegate.m in Sources */,
+				C71037981C2A420500070391 /* main.m in Sources */,
+				C71037E31C2A440600070391 /* SYHoleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71037A81C2A420500070391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71037B11C2A420500070391 /* GYQRCodeReaderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71037B31C2A420500070391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71037BC1C2A420500070391 /* GYQRCodeReaderDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C71037AE1C2A420500070391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71037921C2A420500070391 /* GYQRCodeReaderDemo */;
+			targetProxy = C71037AD1C2A420500070391 /* PBXContainerItemProxy */;
+		};
+		C71037B91C2A420500070391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71037921C2A420500070391 /* GYQRCodeReaderDemo */;
+			targetProxy = C71037B81C2A420500070391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C71037BE1C2A420500070391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C71037BF1C2A420500070391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C71037C11C2A420500070391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GYQRCodeReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syousoft.GYQRCodeReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C71037C21C2A420500070391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GYQRCodeReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syousoft.GYQRCodeReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C71037C41C2A420500070391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GYQRCodeReaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syousoft.GYQRCodeReaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYQRCodeReaderDemo.app/GYQRCodeReaderDemo";
+			};
+			name = Debug;
+		};
+		C71037C51C2A420500070391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GYQRCodeReaderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syousoft.GYQRCodeReaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYQRCodeReaderDemo.app/GYQRCodeReaderDemo";
+			};
+			name = Release;
+		};
+		C71037C71C2A420500070391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GYQRCodeReaderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syousoft.GYQRCodeReaderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GYQRCodeReaderDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C71037C81C2A420500070391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GYQRCodeReaderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syousoft.GYQRCodeReaderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GYQRCodeReaderDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C710378E1C2A420500070391 /* Build configuration list for PBXProject "GYQRCodeReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71037BE1C2A420500070391 /* Debug */,
+				C71037BF1C2A420500070391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71037C01C2A420500070391 /* Build configuration list for PBXNativeTarget "GYQRCodeReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71037C11C2A420500070391 /* Debug */,
+				C71037C21C2A420500070391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C71037C31C2A420500070391 /* Build configuration list for PBXNativeTarget "GYQRCodeReaderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71037C41C2A420500070391 /* Debug */,
+				C71037C51C2A420500070391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C71037C61C2A420500070391 /* Build configuration list for PBXNativeTarget "GYQRCodeReaderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71037C71C2A420500070391 /* Debug */,
+				C71037C81C2A420500070391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C710378B1C2A420500070391 /* Project object */;
+}
